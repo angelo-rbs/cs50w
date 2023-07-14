@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Form</title>
+	</head>
+	<body>
+		<form>
+			<div>
+				<input name="name" type="text" placeholder="Full name" />
+				<input name="password" type="password" placeholder="Password" />
+				<input type="submit" />
+			</div>
+			<div>
+				<input name="framework" type="radio" value="vue" /> Vue
+				<input name="framework" type="radio" value="react" /> React
+				<input name="framework" type="radio" value="svelte" /> Svelte
+			</div>
+			<div>
+				<input type="text" list="states" placeholder="State" />
+				<datalist id="states">
+					<option value="Rio Grande do Norte"></option>
+					<option value="Amapá"></option>
+					<option value="Acre"></option>
+					<option value="Pará"></option>
+					<option value="Maranhão"></option>
+					<option value="Tocantins"></option>
+				</datalist>
+			</div>
+		</form>
+	</body>
+</html>
