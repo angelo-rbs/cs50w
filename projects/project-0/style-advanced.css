@@ -1,0 +1,162 @@
+
+
+* {
+  margin: 0;
+  text-decoration-line: none;
+  font-family: arial, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+}
+
+#logo {
+  height: 60px;
+  position: relative;
+  left: 20px;
+}
+
+#return {
+  padding-right: 30px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+.title {
+  font-size: 28px;
+  color: firebrick;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+
+  position: relative;
+  left: 30px;
+  bottom: 100px;
+}
+
+p {
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+
+.label-container {
+  width: 220px;
+}
+
+.field-container {
+  display: flex;
+  flex-direction: row;
+
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+
+.search-field {
+  border: 1px inset lightgray;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 20px;
+
+  flex-grow: 1;
+  flex-shrink: 2;
+}
+
+.search-field:focus {
+  outline-color: cornflowerblue;
+  outline-style: solid;
+}
+
+
+tr {
+  display: flex;
+  flex-direction: row;
+  
+  padding: 5px 0;
+  min-width: 40vw;
+}
+
+button {
+  height: 40px;
+  width: 100px;
+  background-color: dodgerblue;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  color: white;
+
+  cursor: pointer;
+
+  position: relative;
+  top: 30px;
+}
+
+form {
+  width: fit-content;
+}
+
+button:hover {
+  box-shadow: 1px 1px lightgray;
+}
+
+button:active {
+  box-shadow: 1px 1px darkgray;
+}
+
+footer {
+  display: block;
+}
+
+.separated {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #e0e1e4
+}
+
+.menu {
+  padding: 12px 30px;
+  color: #70757a;
+}
+
+
+.horizontal {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  column-gap: 15px;
+  font-size: 15px;
+}
+
+footer div {
+  display: inline;
+  background-color: #f2f2f2;
+
+  font-size: 15px;
+  justify-content: left;
+  align-items: center;
+}
+
+
+.menu a {
+  font-size: 13px;
+  color: #70757a;
+}
+
+.menu p {
+  font-size: 15px;
+
+  position: relative;
+  top: 12px;
+}

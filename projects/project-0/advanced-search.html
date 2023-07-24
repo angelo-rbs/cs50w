@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Advanced search</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="style-advanced.css" />
+	</head>
+	<body>
+		<header>
+			<img id="logo" src="logo-google-256.png" />
+			<a id="return" href="index.html">Google Search</a>
+		</header>
+		<main>
+			<article>
+				<section>
+					<label class="title">Pesquisa avançada</label>
+				</section>
+				<form action="https://www.google.com/search">
+					<p>Localizar páginas com...</p>
+					<table>
+						<tr>
+							<td class="label-container"><label>todas estas palavras: </label></td>
+							<td class="field-container">
+								<input type="text" class="search-field" autocomplete="off" name="as_q" />
+							</td>
+						</tr>
+						<tr>
+							<td class="label-container"><label>esta expressão ou frase exata:</label></td>
+							<td class="field-container">
+								<input type="text" class="search-field" autocomplete="off" name="as_epq" />
+							</td>
+						</tr>
+						<tr>
+							<td class="label-container"><label>qualquer uma destas palavras:</label></td>
+							<td class="field-container">
+								<input type="text" class="search-field" autocomplete="off" name="as_oq" />
+							</td>
+						</tr>
+						<tr>
+							<td class="label-container"><label>nenhuma destas palavras:</label></td>
+							<td class="field-container">
+								<input type="text" class="search-field" autocomplete="off" name="as_eq" />
+							</td>
+						</tr>
+						<tr>
+							<td class="label-container"><label>números que variam de:</label></td>
+							<td class="field-container">
+								<input type="text" class="search-field" autocomplete="off" name="as_nlo" />
+								a <input type="text" class="search-field" autocomplete="off" name="as_nhi" />
+							</td>
+						</tr>
+					</table>
+					<button type="submit">Pesquisar</button>
+				</form>
+				
+			</article>
+		</main>
+		<footer>
+      <div class="menu horizontal">
+        <p>Brasil</p>
+      </div>
+      <div class="separated">
+        <nav class="menu horizontal">
+          <a href="#">Sobre</a>
+          <a href="#">Publicidade</a>
+          <a href="#">Negócios</a>
+          <a href="#">Como funciona a Pesquisa</a>
+        </nav>
+        <nav class="menu horizontal">
+          <a href="#">Privacidade</a>
+          <a href="#">Termos</a>
+          <a href="#">Configurações</a>
+        </nav>
+      </div>
+    </footer>
+	</body>
+</html>

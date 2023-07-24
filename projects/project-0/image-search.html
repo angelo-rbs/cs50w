@@ -2,21 +2,21 @@
 <html lang="en">
 	<head>
     <meta charset="utf-8">
-		<title>Search</title>
+		<title>Image search</title>
 		<link href="style.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/5355179a1d.js" crossorigin="anonymous"></script>
   </head>
 	<body>
 		<header> 
       <nav>
-        <a href="image-search.html">Images</a>
-        <a href="advanced-search.html">Advanced</a>
+        <a href="index.html">Google Search</a>
       </nav>
     </header>
 		<main>
       <article class="container">
-        <img alt="Google logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-        <form action="https://www.google.com/search">
+        <img alt="GoogleImage" src="https://www.google.com.br/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+        <p>Images</p>
+        <form action="https://www.google.com/search?sclient=img">
            
           <div id="search-bar" class="search-bar-item">
             <i class="fa-solid fa-magnifying-glass search-bar-item"></i>
@@ -24,10 +24,6 @@
             <i class="fa-solid fa-keyboard search-bar-item"></i>
             <i class="fa-solid fa-microphone search-bar-item"></i>
             <i class="fa-solid fa-camera search-bar-item"></i>
-          </div>
-          <div class="buttons">
-            <input type="submit" value="Google Search" class="button focusable"/>
-            <input type="button" role="button" value="I'm Feeling Lucky" class="button focusable"></input>
           </div>
         </form>
       </article>
